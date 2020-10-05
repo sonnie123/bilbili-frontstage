@@ -59,3 +59,44 @@ a {
     font-size: 20px;
     border-bottom: gray 1px solid;
 }
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#top {
+    background-color: antiquewhite;
+}
+
+#top a:hover {
+    color: red;
+}
+
+#top a {
+
+    padding-right: 120px;
+    font-size: 20px;
+    color: gray;
+    padding-left: 20px;
+}
+
+#ti {
+    padding-left: 175px;
+    padding-top: 20px;
+}
+#com{
+    padding-top: 30px;
+    padding-left: 180px;
+}
+
+#s{
+    padding-top: -50px;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+}
