@@ -3,8 +3,8 @@ $(function () {
     var dp = new DPlayer({
         element: document.getElementById('player1'),
         video: {
-            url: 'http://m.yyets8.com/play/72058-1-1.html',
-            pic: 'images/lo.png'
+            url: 'http://49.234.77.189:8080/examples/videos/1.mp4',
+            // pic: 'images/lo.png'
         },
         danmaku: {
             id: 'demo',

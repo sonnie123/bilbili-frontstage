@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+        }
+        body{
+            font-size:14px;
+            color:#444;
+        }
+        .container{
+            display:block;
+            max-width:1240px;
+            margin:0 auto;
+        }/*布局：页面设置宽度并居中*/
+        .left{
+            float:left;
+        }/*控制浮动*/
+        .right{
+            float:right;
+        }/*控制浮动*/
+        .clear-float:after,
+        .clear-float:before{
+            content:" ";
+            display:block:
+            clear:both;
+        }/*这个类的第一个元素与最后一个元素清除浮动*/
+        .top-nav .border{
+            border:1px solid #000;
+            width:100%;
+            height:35px;
+            background:rgba(0,0,0,0.8);
+            color:#ffffff99;
+        }
+        .top-nav .border .nav{
+            margin-top:8px;
+            font-size:12px;
+        }
+        .logo{
+            width:55px;
+            height:55px;
+        }
+        .header .picture{
+            border:1px solid #fff;
+            padding:20px 50px 20px 0;
+        }
+        .header .container{
+            border:1px solid #fff;
+            width:100%;
+            height:100px;
+        }
+        .header .container .classify{
+            font-size:17px;
+            border:1px solid #fff;
+            padding:40px 0;
+        }
+        .header .container .classify span{
+            margin-left:14px;
+        }
+        .header .container input{
+            width:200px;
+            height:50px;
+        }
+        .header .container button{
+            height:50px;
+            width:50px;
+            margin:0;
+        }
+        .header .container .right{
+            font-size:14px;
+            border:1px solid #fff;
+            padding:30px 0 0 0;
+        }
+        .main-promote .time{
+            font-size:18px;
+            border:1px solid #fff;
+            padding:26px 0;
+            background:rgba(0,0,0,0.8);
+            color:#fff;
+        }
+        .main-promote .time span{
+            margin:0 50px;
+        }
+        .main-promote table tr th{
+            border:1px solid #000;
+            width:420px;
+            height:200px;
+            background:rgba(0,0,0,0.1);
+        }
+        .main-promote table{
+            margin-top:10px;
+            margin-bottom:100px;
+        }
+
+    </style>
+</head>
+<body>
+<! doctype html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--视窗，宽度默认设备宽度,开始缩放1倍-->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css">
+    <!---标准格式-->
+    <link rel="stylesheet" href="text.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>小米商城</title>
+</head>
+<body class="clear-float">
+<div class="top-nav">
+    <div class="border">
+        <div class="nav container">
+            <div class="left">小米商城 | MIUI | IoT | 云服务 | 金融 | 有品 | 小爱开放平台 | 企业团购 | 资质证照 | 协议规则 | 下载app</div>
+            <div class="right">购物车</div>
+            <div class="right">登录 | 注册 | 消息通知 |</div>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <div class="container">
+        <div class="left picture">
+            <img class="logo" src="http://pic192.nipic.com/file/20181119/20144696_101353530633_2.jpg">
+        </div>
+        <div class="left classify">
+            <span>全部商品分类</span>
+            <span>小米手机</span>
+            <span>Redmi 红米</span>
+            <span>电视</span>
+            <span>笔记本</span>
+            <span>家电</span>
+            <span>路由器</span>
+            <span>智能硬件</span>
+            <span>服务</span>
+            <span>社区</span>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="小米9 Pro 5G">
+            <button>搜索</button>
+        </div>
+    </div>
+</div>
+<div class="main-promote">
+    <div class="container">
+        <div class="time">
+            <span>08:00 即将开始</span>
+            <span>10:00 即将开始</span>
+            <span>14:00 即将开始</span>
+            <span>20:00 即将开始</span>
+            <span>22:00 即将开始</span>
+        </div>
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="container">*小米秒杀活动规则：
+    <br>1.秒杀商品是否参加活动、最终秒杀成功的商品，以订单结算页显示为准，活动包括但不限于优惠券、赠品、满减、满赠等；<br>
+    2.秒杀商品数量有限，活动以下单支付成功为准，请加入购物车后尽快下单支付;<br>
+    3.秒杀价不含运费，最终以订单结算页价格为准；<br>
+    4.订单中商品的数量、颜色、型号等，以订单结算页为准。<br>
+    温馨提示：因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系小米客服，以便我们及时补正。
+</div>
+</body>
+</html>
+
+
+</body>
+</html>
